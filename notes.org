@@ -1,0 +1,18 @@
+* Inbox
+
+** django-admin
+*** squashmigrations
+- many to few migrations file
+*** showmigrations
+- shows migrations tick untick , date
+*** runserver
+- to share website on internal network run it as runserver 192.168.1.2(system's local IP)
+- we can run commands -> django-admin shell --command="import django;print(django.__version__)"
+*** sendtestmail
+- install ruby-dev
+- mailcatcher to run smtp server and web ui or mail hog(Go)
+** __init__.py
+- this is used to tell python that treat this directory as package
+- it can also set __all__ for import * references
+** if __name__ == '__main__'
+- it tells the namespace of current file
